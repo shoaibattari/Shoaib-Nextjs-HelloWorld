@@ -7,6 +7,6 @@ import styles from './page.module.css'
 export default function Home() {
   return (
     <main className={styles.main}>
-<h1>HELLO WORLD FROM SHOAIB MEMON</h1>
+<h1>HELLO WORLD FROM SHOAIB MEMON MY FIRST APP FOR NEXT.JS</h1>
 </main>)
 }
