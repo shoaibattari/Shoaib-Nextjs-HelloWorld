@@ -8,7 +8,7 @@ export default function About() {
 const router = useRouter();
   return (
       <main className={styles.main}>
-  <h1>THIS PAGE IS ABOUT COMPONENTS</h1>
+  <h3>THIS PAGE IS ABOUT COMPONENTS</h3>
   
   <button type="button" onClick={()=> router.push('./')}>
     Go To Main Page

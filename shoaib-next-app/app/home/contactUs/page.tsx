@@ -10,7 +10,7 @@ export default function ConatctUs() {
 
   return (
       <main className={styles.main}>
-  <h1>THIS PAGE IS CONTACT US COMPONENTS</h1>
+  <h2>THIS PAGE IS CONTACT US COMPONENTS</h2>
 
   
   <button type="button" onClick={()=> router.push('./')}>

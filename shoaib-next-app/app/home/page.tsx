@@ -6,7 +6,7 @@ export default function Home() {
   const router = useRouter();
   return (
     <main className={styles.main}>
-      <h1>THIS PAGE IS HOME COMPONENTS</h1>
+      <h2>THIS PAGE IS HOME COMPONENTS</h2>
       <button type="button" className="btn" onClick={() => router.push('./')}>
         Go To Main Page
       </button>
