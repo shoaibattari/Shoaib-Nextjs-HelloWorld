@@ -8,17 +8,19 @@ export default function About() {
 const router = useRouter();
   return (
       <main className={styles.main}>
-  <h1>this page is about component</h1>
+  <h1>THIS PAGE IS ABOUT COMPONENTS</h1>
   
   <button type="button" onClick={()=> router.push('./')}>
     Go To Main Page
   </button>
-  <br/>
 
   <button type="button" onClick={()=> router.push('./home')}>
     Go To Home Page
   </button>
-  <br/>
+
+<button type="button" onClick={()=> router.push('./home/about')}>
+  Go To About Page
+</button>
 
 <button type="button" onClick={()=> router.push('./home/contactUs')}>
   Go To Contact Us Page
