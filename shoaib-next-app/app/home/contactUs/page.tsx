@@ -26,7 +26,7 @@ export default function ConatctUs() {
 </button>
   
 
-<button type="button" onClick={()=> router.push('./home/contact US')}>
+<button type="button" onClick={()=> router.push('./home/contact Us')}>
   Go To Contact Us Page
 </button>
   </main>)

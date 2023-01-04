@@ -8,6 +8,18 @@
   color: purple;
 font-size: xx-large;}
 
+.main  button{
+  display: flex;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  background-color: #0000001a;
+  padding: .90rem;
+  color: purple;
+font-size: 25px;}
+
+
+
 .description {
   display: inherit;
   justify-content: inherit;

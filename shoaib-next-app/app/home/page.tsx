@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <h1>THIS PAGE IS HOME COMPONENTS</h1>
-
       <button type="button" className="btn" onClick={() => router.push('./')}>
         Go To Main Page
       </button>
@@ -23,7 +22,6 @@ export default function Home() {
       <button type="button" onClick={() => router.push('./home/contactUs')}>
         Go To Contact Us Page
       </button>
-
-    </main>
+      </main>
     )
 }

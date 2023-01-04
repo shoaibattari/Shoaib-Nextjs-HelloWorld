@@ -12,8 +12,8 @@ const router = useRouter();
   
   <button type="button" onClick={()=> router.push('./')}>
     Go To Main Page
-  </button>
 
+  </button>
   <button type="button" onClick={()=> router.push('./home')}>
     Go To Home Page
   </button>
@@ -25,11 +25,6 @@ const router = useRouter();
 <button type="button" onClick={()=> router.push('./home/contactUs')}>
   Go To Contact Us Page
 </button>
-  
-  
-  
-  
-  
   
   </main>)
   }

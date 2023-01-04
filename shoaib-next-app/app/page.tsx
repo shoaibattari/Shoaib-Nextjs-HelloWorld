@@ -8,10 +8,11 @@ import Link from 'next/link'
 export default function Home() {
   return (<>
     <main className={styles.main}>
-<h1>HELLO WORLD FROM SHOAIB MEMON MY FIRST APP FOR NEXT.JS</h1>
+<p>App Create By: SHOAIB MEMON</p>
+<br />
+<h3>MY FIRST APP FOR NEXT.JS WITH ROUTING</h3>
 <p>-----------------------------------------------------------------------</p>
 <p>this is main page</p>
-<br />
 <p>-----------------------------------------------------------------------</p>
 
 <Link href="/home">Go To Home Page</Link>
